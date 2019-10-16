@@ -13,7 +13,8 @@ attr_accessor :shows
 
   def highest_paid_actor
     @shows.map  do |show|
-      show.total_salary
+      show.characters
+        #STUCKKKK
     end
 
   end
